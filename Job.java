@@ -1,3 +1,7 @@
+/**
+ * Creates a job to be processed by a thread
+ * @param:  jobNumber job that is being executed
+ */
 public class Job implements Runnable {
     private int jobNumber;
 
